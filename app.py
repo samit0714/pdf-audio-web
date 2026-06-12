@@ -7,6 +7,7 @@ import io
 str.set_page_config(page_title="AI Audiobook Creator", page_icon="🎧", layout="centered")
 
 str.title("AI PDF AudioBook Converter")
+str.caption("Made by Samit Singh ✨")
 str.write("Uplod your pdf file and convert it into audio file directly in your phone")
 
 uploaded_file = str.file_uploader("Select PDF File", type=["pdf"])
